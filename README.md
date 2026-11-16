@@ -3,7 +3,7 @@
 # ⚡ A.R.I.S.E
 
 ### **Autonomous, Reactive & Intelligent System Engine**
-#### *Autonomous, Self-Evolving On-Device AI Assistant & Android UI Automation Agent*
+#### *An autonomous, local-first on-device AI agent and Android OS automation framework featuring full accessibility control, continuous voice intelligence, and self-evolving workflow execution.*
 *Architected and Engineered with Precision by **Kesicode***
 
 ---
