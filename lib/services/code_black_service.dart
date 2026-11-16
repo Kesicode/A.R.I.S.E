@@ -20,16 +20,16 @@ class CodeBlackService extends ChangeNotifier {
 
   static const List<String> disarmPassphrases = [
     'override alpha',
-    'stand down jarvis',
+    'stand down arise',
     'stand down',
-    'abuzar protocol',
-    'jarvis override',
+    'arise override',
+    'arise protocol',
     'alpha protocol',
     'disarm',
     'cancel lockdown',
     'stop code black',
     'emergency override',
-    'abuzar',
+    'arise',
     'unlock',
   ];
 

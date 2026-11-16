@@ -244,14 +244,17 @@ class VoiceService {
     } catch (_) {}
   }
 
-  /// Sanitizes text so speech synthesizers pronounce acronyms like Jarvis naturally
-  /// instead of spelling out letters like "J dot A dot R dot V dot I dot S".
+  /// Sanitizes text so speech synthesizers pronounce acronyms like A.R.I.S.E naturally
+  /// instead of spelling out letters like "A dot R dot I dot S dot E".
   String sanitizeForSpeech(String text) {
     return text
-        .replaceAll(RegExp(r'J\.A\.R\.V\.I\.S\.?', caseSensitive: false), 'Jarvis')
-        .replaceAll(RegExp(r'\bJ\.A\.R\.V\.I\.S\b', caseSensitive: false), 'Jarvis')
-        .replaceAll(RegExp(r'J\s*\.\s*A\s*\.\s*R\s*\.\s*V\s*\.\s*I\s*\.\s*S\.?', caseSensitive: false), 'Jarvis')
-        .replaceAll(RegExp(r'\bJARVIS\b'), 'Jarvis')
+        .replaceAll(RegExp(r'A\.R\.I\.S\.E\.?', caseSensitive: false), 'Arise')
+        .replaceAll(RegExp(r'\bA\.R\.I\.S\.E\b', caseSensitive: false), 'Arise')
+        .replaceAll(RegExp(r'A\s*\.\s*R\s*\.\s*I\s*\.\s*S\s*\.\s*E\.?', caseSensitive: false), 'Arise')
+        .replaceAll(RegExp(r'J\.A\.R\.V\.I\.S\.?', caseSensitive: false), 'Arise')
+        .replaceAll(RegExp(r'\bJ\.A\.R\.V\.I\.S\b', caseSensitive: false), 'Arise')
+        .replaceAll(RegExp(r'J\s*\.\s*A\s*\.\s*R\s*\.\s*V\s*\.\s*I\s*\.\s*S\.?', caseSensitive: false), 'Arise')
+        .replaceAll(RegExp(r'\bJARVIS\b'), 'Arise')
         .replaceAll('*', '')
         .replaceAll('#', '')
         .replaceAll('`', '')

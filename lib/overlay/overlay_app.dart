@@ -40,7 +40,7 @@ class _OverlayAppState extends State<OverlayApp>
 
   // JARVIS Real-Time Phase State
   String _jarvisPhase = 'idle'; // 'idle', 'listening', 'thinking', 'speaking', 'executing'
-  String _jarvisStatus = 'STANDBY // SAY "HEY JARVIS"';
+  String _jarvisStatus = 'STANDBY // SAY "HEY A.R.I.S.E"';
   String? _screenSummary;
   String _summaryTitle = 'Screen Article Summary';
 

@@ -1,16 +1,17 @@
 <div align="center">
 
-# ⚡ J.A.R.V.I.S. (PrivateAgent)
+# ⚡ A.R.I.S.E
 
-### **Autonomous, Self-Evolving On-Device AI Assistant & Android UI Automation Agent**
-*Architected and Engineered with Precision by **Abuzar***
+### **Autonomous, Reactive & Intelligent System Engine**
+#### *Autonomous, Self-Evolving On-Device AI Assistant & Android UI Automation Agent*
+*Architected and Engineered with Precision by **Kesicode***
 
 ---
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.12+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 [![Android](https://img.shields.io/badge/Android-API%2026%2B%20(8.0--15)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
-[![Release](https://img.shields.io/badge/Release-v1.1.0-blue?style=for-the-badge&logo=github)](https://github.com/AbuZar-Ansarii/Jarvis/releases)
+[![Repository](https://img.shields.io/badge/GitHub-Kesicode%2FA.R.I.S.E-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kesicode/A.R.I.S.E)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local--First-00E5FF?style=for-the-badge&logo=shield&logoColor=black)](https://ollama.com)
 [![Hermes](https://img.shields.io/badge/Hermes-Self--Evolving%20Engine-BA68C8?style=for-the-badge&logo=openai&logoColor=white)](https://nousresearch.com)
@@ -25,56 +26,70 @@
 
 ---
 
-## 🌟 System Overview
+## 🛡️ Security, Privacy & Discretion Statement
 
-**J.A.R.V.I.S.** (PrivateAgent) is an autonomous, on-device AI assistant, system automation framework, and cybernetic operating HUD for Android, architected and built by **Abuzar**. 
+> [!IMPORTANT]
+> **A.R.I.S.E** operates under an uncompromising **Discretion and Privacy Principle**. In an era of pervasive telemetry and aggressive cloud data harvesting, A.R.I.S.E is designed from the ground up as a private, sovereign digital companion:
+>
+> 1. **Zero Tracking & Zero Analytics**: There are no third-party analytic trackers, ad networks, or telemetry beacons embedded in this codebase.
+> 2. **Local-First Architecture**: Compatible out-of-the-box with 100% offline local LLM runtimes (via Ollama on your home network or on-device backends).
+> 3. **Accessibility Discretion**: When granted Accessibility permissions, screen hierarchy inspection executes exclusively in temporary RAM buffers. Screen data is never logged to disk, never sent to remote telemetry servers, and only transmitted to the specific LLM endpoint you explicitly configure.
+> 4. **User-Controlled Discretion**: You maintain absolute authority over device actions. Dangerous operations (financial transactions, credential modification, account deletions) require explicit visual and tactile user authorization.
 
-Unlike conventional voice assistants that merely return web searches or canned voice responses, J.A.R.V.I.S. acts as a true autonomous operator on your smartphone. By coupling on-device accessibility inspection, native sensor hardware access, multimodal machine vision, and OpenAI-compatible LLM backends (cloud or 100% offline via Ollama), J.A.R.V.I.S. can:
+---
 
-- **Operate Any Application Hands-Free**: Read screen hierarchies, synthesize user intentions, and execute multi-step touch interactions (tap, type, scroll, swipe) autonomously.
-- **Project Dual Cinematic 3D Holograms**: Render an interactive gyroscopic Arc Reactor consciousness core or a translucent 3D Iron Man hologram suit bust with dynamic audio-reactive aura colors.
+## 🌟 System Overview & Description
+
+**A.R.I.S.E** (**A**utonomous, **R**eactive & **I**ntelligent **S**ystem **E**ngine) is a cutting-edge autonomous on-device AI assistant, mobile system automation framework, and cybernetic operating HUD for Android, maintained and engineered by **Kesicode**.
+
+Unlike traditional voice assistants that merely output canned web search snippets or rudimentary timers, A.R.I.S.E functions as an authentic autonomous operator on your smartphone. By coupling on-device accessibility inspection, native sensor hardware access, multimodal machine vision, and OpenAI-compatible LLM backends (cloud or 100% offline via Ollama), A.R.I.S.E can:
+
+- **Operate Any Application Hands-Free**: Read screen hierarchies, synthesize operator intentions, and execute multi-step touch interactions (tap, type, scroll, swipe) autonomously.
+- **Project Dual Cinematic 3D Holograms**: Render an interactive gyroscopic Arc Reactor consciousness core or a translucent 3D cybernetic hologram avatar with dynamic audio-reactive aura colors.
 - **Sense Your Physical Environment**: Detect mid-air hand gestures using optical proximity hardware, monitor room movement using accelerometer watchdog sentries, and calculate aircraft overhead via ADS-B telemetry.
 - **Evolve and Self-Improve (Hermes Engine)**: Distill repetitive app interactions into executable macro skills and persist learned operator preferences across `SOUL.md`, `USER.md`, and `AGENT.md` context files.
 - **Guarantee Complete Privacy**: Built with a strict **Local-First Privacy Architecture** with zero embedded trackers, zero telemetry analytics, and complete compatibility with fully offline, on-device Ollama instances.
 
 ---
 
-## 🚀 What's New in v1.1.0 — The Autonomous Triad
+## 🚀 Key Highlights & Capabilities — The Autonomous Triad
 
-Release **v1.1.0** introduces **The Autonomous Triad** upgrade:
+A.R.I.S.E introduces a revolutionary autonomous smartphone framework:
 
 1. 🧠 **Multi-Task Decoupler & Parallel Execution Engine**:
-   - **Chaotic Brain Dump UI**: New interactive glass HUD dialog (`BrainDumpDialog`) and Navigation Drawer entry.
+   - **Chaotic Brain Dump UI**: Interactive liquid glass HUD dialog (`BrainDumpDialog`) and Navigation Drawer entry.
    - **Multi-Vector Parallel Execution**: Dictate or type complex compound requests (e.g., *"Set a reminder for 5 PM, text Sarah I'm 10 mins late, add eggs to my todo, calculate 25% of 600, and turn on the flashlight"*). Deconstructs intents into parallel async futures with consolidated vocal executive briefings.
-   - **Expanded Directives**: Added direct hardware execution for device actions (torch/flashlight, volume up/down, mute, screenshots) alongside reminders, drafts, todos, notes, and calculations.
+   - **Expanded Directives**: Direct hardware execution for device actions (torch/flashlight, volume up/down, mute, screenshots) alongside reminders, drafts, todos, notes, and calculations.
 
 2. 🎙️ **Always-On Hands-Free Continuous Listening**:
    - **Live HUD Receptor Toggle**: Directly switch between Always-On continuous listening and Standby mode right from the HUD action dock with a glowing status ring.
-   - **Ambient Noise Filtering**: Uses acoustic RMS silence boundary detection and low-power passive listening for wake words (`"Hey Jarvis"`, `"Jarvis"`, `"Hello Jarvis"`).
+   - **Ambient Noise Filtering**: Uses acoustic RMS silence boundary detection and low-power passive listening for wake words (`"Hey A.R.I.S.E"`, `"A.R.I.S.E"`, `"Hey Arise"`, `"Arise"`).
    - **Conversational Continuation Window**: Automatically keeps audio receptors open for 7.5 seconds after speaking for frictionless follow-up queries without repeating the wake word.
    - **Full Voice Control**: Hands-free voice toggles anytime with *"Always on"*, *"Hands free"*, or *"Turn off always on"*.
 
 3. 🧬 **Hermes Self-Evolution Engine**:
    - **Tri-Partite Context Architecture**: Synthesizes and maintains `SOUL.md` (Constitution & Identity), `USER.md` (Operator Habits & Facts), and `AGENT.md` (Protocols & Tool Capabilities).
-   - **Voice-Triggered Evolution**: Say *"Hey Jarvis, self evolve"*, *"Evolve context"*, or *"Update your memory"* to immediately synthesize new user facts and active device workflows.
+   - **Voice-Triggered Evolution**: Say *"Hey A.R.I.S.E, self evolve"*, *"Evolve context"*, or *"Update your memory"* to immediately synthesize new user facts and active device workflows.
    - **Live Memory-to-Soul Hook**: Automatically synchronizes whenever new facts or preferences are extracted from conversations.
    - **HUD One-Tap Action**: One-tap "SELF EVOLVE" pod in the 3D Hologram HUD with immediate vocal status briefing.
 
 ---
 
-The following architecture diagram illustrates how J.A.R.V.I.S. coordinates Flutter UI, native Android platform channels, hardware sensors, accessibility services, and local/cloud LLMs:
+## 📐 Architecture & Data Flow
+
+The following architecture diagram illustrates how A.R.I.S.E coordinates Flutter UI, native Android platform channels, hardware sensors, accessibility services, and local/cloud LLMs:
 
 ```mermaid
 flowchart TD
     subgraph UI ["User Interface Layer (Flutter / Liquid Glass)"]
-        HUD["Dual 3D Hologram HUD\n(Arc Reactor & Iron Man Hologram)"]
+        HUD["Dual 3D Hologram HUD\n(Arc Reactor & Hologram Avatar)"]
         Chat["Streaming Chat View\n(SSE Token Stream + Markdown)"]
         Overlay["System Floating Overlay\n(Arc Reactor Bubble / Triage)"]
         Modals["Stark Dialogs\n(Radar / Optical / Air Gestures / Code Black)"]
     end
 
-    subgraph CoreEngine ["J.A.R.V.I.S. Core Intelligence Layer"]
-        JarvisService["JarvisService Controller"]
+    subgraph CoreEngine ["A.R.I.S.E Core Intelligence Layer"]
+        ARISEService["ARISEService Controller"]
         AiService["AiService & Intent Router"]
         TaskExecutor["TaskExecutor\n(Observe-Think-Act Engine)"]
         Hermes["Hermes Evolution Service\n(SOUL.md | USER.md | AGENT.md)"]
@@ -94,21 +109,21 @@ flowchart TD
     end
 
     %% Wiring
-    HUD --> JarvisService
+    HUD --> ARISEService
     Chat --> AiService
     Overlay --> TaskExecutor
-    Modals --> JarvisService
+    Modals --> ARISEService
 
-    JarvisService --> AiService
-    JarvisService --> TaskExecutor
-    JarvisService --> VoiceEngine
-    JarvisService --> Hermes
+    ARISEService --> AiService
+    ARISEService --> TaskExecutor
+    ARISEService --> VoiceEngine
+    ARISEService --> Hermes
 
     AiService <--> Ollama
     AiService <--> CloudLLM
 
     TaskExecutor <--> AccessibilitySvc
-    JarvisService <--> MainActivity
+    ARISEService <--> MainActivity
     MainActivity <--> SensorHardware
     MainActivity <--> NotificationSvc
 ```
@@ -117,17 +132,17 @@ flowchart TD
 
 ## 🔮 Dual Holographic Visual Screens
 
-J.A.R.V.I.S. features two switchable, cinema-grade visual HUD engines. Users can toggle between them in **Settings > JARVIS Screen Mode** or directly from the live HUD switcher pill:
+A.R.I.S.E features two switchable, cinema-grade visual HUD engines. Users can toggle between them in **Settings > A.R.I.S.E Screen Mode** or directly from the live HUD switcher pill:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        CINEMATIC HUD PROJECTIONS                       │
 ├──────────────────────────────────┬─────────────────────────────────────┤
-│ ⚡ Arc Reactor Core (Default)    │ 🤖 Jarvis Hologram Suit Bust        │
+│ ⚡ Arc Reactor Core (Default)    │ 🤖 A.R.I.S.E Hologram Suit Bust     │
 │ • 3D spherical consciousness core│ • Translucent cybernetic avatar     │
 │ • Gyroscopic armillary rings     │ • Elliptical emitter pedestal       │
 │ • Triple-ring orbital rotation   │ • Horizontal raster scanlines       │
-│ • 360° radial audio spectrum     │ • Audio-reactive chest reactor pulse│
+│ • 360° radial audio spectrum     │ • Audio-reactive chest pulse        │
 └──────────────────────────────────┴─────────────────────────────────────┘
 ```
 
@@ -149,21 +164,21 @@ Both HUD modes continuously monitor acoustic volume and processing phases, smoot
 
 ```
                ┌────────────────────────────────────────────────────────┐
-               │                        J.A.R.V.I.S.                    │
+               │                        A.R.I.S.E                       │
                └────────────────────────────────────────────────────────┘
                                            │
          ┌─────────────────────────────────┼────────────────────────────────┐
          ▼                                 ▼                                ▼
 ┌───────────────────────┐       ┌───────────────────────┐       ┌───────────────────────┐
-│     J.A.R.V.I.S.      │       │      Agent Mode       │       │       Chat Mode       │
+│       A.R.I.S.E       │       │      Agent Mode       │       │       Chat Mode       │
 │  Hands-Free Voice HUD │       │  Observe-Think-Act    │       │  Real-Time Streaming  │
 │  3D Hologram Core     │       │  Full UI Automation   │       │  Typewriter Markdown  │
 │  Air Gestures & Radar │       │  Macro Skill Memory   │       │  Zero Device Actions  │
 └───────────────────────┘       └───────────────────────┘       └───────────────────────┘
 ```
 
-### 1. ⚡ J.A.R.V.I.S. Mode (Hands-Free Voice & Cyber HUD)
-- **Wake Word Listening**: Responds instantly to *"Hey Jarvis"*, *"Jarvis"*, *"Hello Jarvis"*, or *"OK Jarvis"*.
+### 1. ⚡ A.R.I.S.E Mode (Hands-Free Voice & Cyber HUD)
+- **Wake Word Listening**: Responds instantly to *"Hey A.R.I.S.E"*, *"A.R.I.S.E"*, *"Hey Arise"*, or *"Arise"*.
 - **Continuous Desk Assistant**: Keep your phone on your desk or wireless dock; issue commands fluidly without pressing a button.
 - **Acoustic Focus Protection**: Intelligently suspends voice recognition when playing music or videos, preventing media audio from interrupting itself.
 
@@ -181,13 +196,13 @@ Both HUD modes continuously monitor acoustic volume and processing phases, smoot
 
 ## 🚀 The 9 Stark Superpowers Suite
 
-J.A.R.V.I.S. is armed with an elite arsenal of 9 specialized cybernetic superpower capabilities built directly on top of Android hardware:
+A.R.I.S.E is armed with an elite arsenal of 9 specialized cybernetic superpower capabilities built directly on top of Android hardware:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        STARK SUPERPOWERS SUITE                         │
 ├──────────────────────────────────┬─────────────────────────────────────┤
-│ 🖐️ Iron Man Air Gestures         │ Zero-touch mid-air proximity sensor │
+│ 🖐️ Zero-Touch Air Gestures       │ Zero-touch mid-air proximity sensor │
 │ ⚡ Arc Reactor Telemetry         │ Cinematic plug-in HUD & wattage     │
 │ 🌐 Polyglot Diplomat             │ Real-time two-way voice translation │
 │ 🎭 "Code Black" Lockout          │ Anti-prying kernel panic deception  │
@@ -199,7 +214,7 @@ J.A.R.V.I.S. is armed with an elite arsenal of 9 specialized cybernetic superpow
 └──────────────────────────────────┴─────────────────────────────────────┘
 ```
 
-### 1. 🖐️ Iron Man Zero-Touch Air Gestures
+### 1. 🖐️ Zero-Touch Air Gestures
 Control your phone in mid-air without ever smudging the screen.
 - **Hardware Integration**: Hooks into the physical optical proximity sensor via `Sensor.TYPE_PROXIMITY` in Android native Kotlin.
 - **Gestures Supported**:
@@ -213,7 +228,7 @@ Control your phone in mid-air without ever smudging the screen.
 Cinematic power coupling feedback whenever you connect your device.
 - **Automated Detection**: Listens to Android system `ACTION_POWER_CONNECTED` broadcasts.
 - **Cinematic Reactor Popup**: Renders a spinning tritium fusion core with magnetic stator rings and counter-rotating stabilization fields.
-- **Stark Spoken Telemetry**:
+- **Spoken Telemetry**:
   > *"Arc reactor coupled, sir. Energy intake active at 33.0 Watts. Power cells at 74 percent, core temperature steady at 31.4° Celsius."*
 - **Real-Time Electrical Gauges**: Live calculation of wattage ($P = V \times I$), bus voltage ($mV$), thermal grade ($^\circ C$), and charging medium (*AC Turbo*, *Wireless Inductive Flux*, or *USB Bus*).
 
@@ -230,7 +245,7 @@ Cinema-grade simulated kernel panic designed to stop phone snoopers and prying f
 - **Intruder Tamper Alarm**: Any touch attempt on the screen triggers aggressive haptic vibrations and increments an escalating warning counter:
   > *"TAMPER VIOLATIONS: [N] — TRANSMITTING INTRUDER BIOMETRICS TO DEFENSE COMMAND"*
 - **Disarm Methods**:
-  - **Voice Passphrase**: Say *"override alpha"*, *"stand down jarvis"*, *"abuzar protocol"*, or *"disarm"* (speech recognizer runs in background).
+  - **Voice Passphrase**: Say *"override alpha"*, *"stand down arise"*, or *"disarm"* (speech recognizer runs in background).
   - **Hidden Gesture**: 4 rapid taps in the top-right corner.
   - **Emergency Override**: Double-tap or long-press the emergency override slider bar.
 
@@ -251,9 +266,9 @@ Scan the skies directly above your physical location.
   > *"Airspace radar sweep complete, sir. 3 aircraft identified within our regional sector. Closest traffic is Flight Emirates EK203 at 36,000 feet heading East at 520 knots. The International Space Station is currently 2,840 kilometers away."*
 
 ### 7. 🧠 "Chaotic Brain Dump" Multi-Task Decoupler
-Speak 4 or 5 disparate tasks in a single breath; J.A.R.V.I.S. decouples and executes them in parallel.
+Speak 4 or 5 disparate tasks in a single breath; A.R.I.S.E decouples and executes them in parallel.
 - **Input Example**:
-  > *"Jarvis, remind me to call Jack at 4pm, draft a WhatsApp to Sarah saying I'll be 15 minutes late, calculate 25 percent tip on 140 dollars, and add milk and eggs to my grocery list."*
+  > *"A.R.I.S.E, remind me to call Jack at 4pm, draft a WhatsApp to Sarah saying I'll be 15 minutes late, calculate 25 percent tip on 140 dollars, and add milk and eggs to my grocery list."*
 - **Concurrent Dispatch**:
   1. `CalendarReminderService.addItem("Call Jack", 16:00)`
   2. `MessageDraftingService.prepareDraft("Sarah", "whatsapp", "I'll be 15 minutes late")`
@@ -283,9 +298,9 @@ Full cyber defense and IoT reconnaissance sweep on your local Wi-Fi network.
 
 ### 🚨 Sentry Mode (Anti-Theft Watchdog)
 Transform your phone into an armed security station when you step away from your desk:
-1. **Arming**: Say *"Jarvis, activate sentry protocol"* or tap the Sentry switch.
+1. **Arming**: Say *"A.R.I.S.E, activate sentry protocol"* or tap the Sentry switch.
 2. **Motion Detection**: Employs continuous accelerometer monitoring via native Kotlin sensor listeners.
-3. **Silent Capture**: The instant the phone is moved or picked up, J.A.R.V.I.S. silently captures a front-camera snapshot of the intruder via the Camera2 API.
+3. **Silent Capture**: The instant the phone is moved or picked up, A.R.I.S.E silently captures a front-camera snapshot of the intruder via the Camera2 API.
 4. **Vocal Deterrence**: Booms a loud, commanding security alert through the speakers:
    > *"Security violation detected. Spatial coordinates and facial telemetry logged and dispatched."*
 5. **Telegram Dispatch**: Automatically uploads the intruder's photo, breach timestamp, and coordinates to your private Telegram chat.
@@ -297,13 +312,13 @@ Full remote control of your smartphone from any other device running Telegram:
   - `/status`: Checks device battery, active task, and accessibility status.
   - `/screenshot`: Captures current phone screen and transmits high-res PNG back to Telegram.
   - `/cancel` or `/stop`: Terminates any running automation task immediately.
-  - `<Any Task Prose>`: Type *"Open Uber and check price to airport"* — J.A.R.V.I.S. executes the task on your phone and sends back the final screenshot!
+  - `<Any Task Prose>`: Type *"Open Uber and check price to airport"* — A.R.I.S.E executes the task on your phone and sends back the final screenshot!
 
 ---
 
 ## 🧬 Hermes Self-Evolution Architecture
 
-J.A.R.V.I.S. incorporates the **Hermes Tri-Partite Context Architecture**, allowing the assistant to learn, adapt, and evolve its operating rules over time:
+A.R.I.S.E incorporates the **Hermes Tri-Partite Context Architecture**, allowing the assistant to learn, adapt, and evolve its operating rules over time:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -328,13 +343,13 @@ Record manual screen workflows and codify them into permanent, self-executable s
 
 ## 🎙️ Studio Neural Voice & Audio Engine
 
-J.A.R.V.I.S. bypasses standard robotic Android TTS engines by integrating **Microsoft Studio Neural Voices** through a low-latency Edge-TTS pipeline:
+A.R.I.S.E bypasses standard robotic Android TTS engines by integrating **Microsoft Studio Neural Voices** through a low-latency Edge-TTS pipeline:
 
 - **Zero API Keys Required**: Streams high-fidelity MP3 neural audio directly without requiring an Azure subscription.
 - **Intelligent Local Caching**: MD5-hashes spoken responses to disk; recurring phrases speak instantaneously with zero bandwidth usage.
 - **Voice Preset Catalog**:
-  - **`en-GB-RyanNeural`** *(Default)*: Authentic Paul Bettany British JARVIS style — warm, articulate, and poised.
-  - **`en-IE-EmilyNeural`**: Authentic F.R.I.D.A.Y. — charming, crisp Irish female cadence.
+  - **`en-GB-RyanNeural`** *(Default)*: Authentic British AI style — warm, articulate, and poised.
+  - **`en-IE-EmilyNeural`**: Authentic assistant voice — charming, crisp Irish female cadence.
   - **`en-GB-ThomasNeural`**: Natural UK conversational tone.
   - **`en-US-GuyNeural`**: Polished, authoritative US broadcaster tone.
   - **`en-US-ChristopherNeural`**: Direct, crisp, and focused corporate voice.
@@ -344,7 +359,7 @@ J.A.R.V.I.S. bypasses standard robotic Android TTS engines by integrating **Micr
 
 ## 🌐 Supported AI Providers & Vision Models
 
-J.A.R.V.I.S. is provider-agnostic and connects to any OpenAI-compatible API endpoint:
+A.R.I.S.E is provider-agnostic and connects to any OpenAI-compatible API endpoint:
 
 | Provider | Preset Base URL | Recommended Models | Modality |
 |---|---|---|---|
@@ -365,11 +380,11 @@ Inspect device performance metrics natively in real-time without leaving your co
 - **RAM**: Active memory usage ($MB$) and free buffer capacity.
 - **Storage**: Total internal ROM ($GB$), available space, and filesystem health.
 - **Thermals & Battery**: Core battery temperature in $^\circ C$, capacity percentage, and charging state.
-- **Voice Query**: *"Jarvis, system diagnostics"* or *"How much RAM is free?"*
+- **Voice Query**: *"A.R.I.S.E, system diagnostics"* or *"How much RAM is free?"*
 
 ### 📁 Direct Phone Storage File Manager
 Create, read, append, and delete files directly in public phone directories (`Download`, `Documents`, `Pictures`, `DCIM`):
-- **Voice Command**: *"Jarvis, save notes from my meeting to a file called notes.txt in Downloads"*
+- **Voice Command**: *"A.R.I.S.E, save notes from my meeting to a file called notes.txt in Downloads"*
 - **Media Scanner**: Automatically broadcasts `ACTION_MEDIA_SCANNER_SCAN_FILE` to make created files instantly visible in Android file managers.
 
 ### 🏠 Smart Home IoT Integration (Home Assistant)
@@ -386,13 +401,13 @@ Control smart lights, relays, switches, and scenes over your local Wi-Fi:
 | **Air Gestures** | *"Activate air gestures"*, *"Turn off air gestures"* | Arms/disarms optical proximity sensor for mid-air track skipping, pausing, and screenshots |
 | **Arc Reactor** | *"Charging telemetry"*, *"Arc reactor status"* | Speaks electrical wattage, core voltage, temperature, and launches the Arc Reactor HUD |
 | **Translator** | *"Translate between English and Spanish"*, *"Translate 'where is the station' to French"* | Engages two-way Polyglot Diplomat interpreter with native vocal output |
-| **Code Black** | *"Jarvis, activate Code Black"*, *"Initiate lockdown protocol"* | Simulates critical kernel panic screen; unlock via 4-tap top-right corner or *"override alpha"* |
+| **Code Black** | *"A.R.I.S.E, activate Code Black"*, *"Initiate lockdown protocol"* | Simulates critical kernel panic screen; unlock via 4-tap top-right corner or *"override alpha"* |
 | **Floating Co-Pilot** | *"Activate floating copilot"*, *"Dismiss floating assistant"* | Launches floating Arc Reactor bubble assistant over active apps with screen triage |
 | **Airspace Radar** | *"What's flying above me?"*, *"Scan airspace"*, *"Where is the ISS?"* | Sweeps local airspace for flights and ISS orbital passes with altitude, speed, and heading |
 | **Brain Dump** | *"Remind me to call Jack at 4pm and draft a WhatsApp to Sarah saying I am late"* | Decouples chaotic stream-of-consciousness dump into parallel executions |
-| **Optical Solver** | *"Jarvis, solve this"*, *"Inspect this error"*, *"Split this bill"* | Point camera to solve math equations, debug stack traces, and calculate split receipts |
+| **Optical Solver** | *"A.R.I.S.E, solve this"*, *"Inspect this error"*, *"Split this bill"* | Point camera to solve math equations, debug stack traces, and calculate split receipts |
 | **Network Audit** | *"Audit my network"*, *"Who is on my Wi-Fi?"*, *"Check network security"* | Scans subnet, identifies connected device MACs/vendors, and audits open ports & IP cameras |
-| **Sentry Mode** | *"Jarvis, activate sentry protocol"*, *"Disarm sentry"* | Accelerometer motion anti-theft watchdog with silent intruder camera capture & Telegram dispatch |
+| **Sentry Mode** | *"A.R.I.S.E, activate sentry protocol"*, *"Disarm sentry"* | Accelerometer motion anti-theft watchdog with silent intruder camera capture & Telegram dispatch |
 | **Hardware Specs** | *"System specs"*, *"How much RAM do I have?"*, *"Free storage space"* | Speaks device model, manufacturer, RAM, ROM, and thermals without opening settings |
 | **Smart Home** | *"Turn on the living room light"*, *"Dim lights to 20%"*, *"Night mode"* | Controls Home Assistant lights, relays, and scenes over local LAN |
 | **Commute** | *"How is traffic to work?"*, *"When should I leave for my meeting?"* | Checks OSRM route, evaluates rush hour delay, and alerts departure time |
@@ -406,7 +421,7 @@ Control smart lights, relays, switches, and scenes over your local Wi-Fi:
 
 ## 🔐 Android Permissions & Setup Guide
 
-J.A.R.V.I.S. provides a dedicated **Permissions Hub** in **Settings > App Permissions** that audits and requests all required permissions:
+A.R.I.S.E provides a dedicated **Permissions Hub** in **Settings > App Permissions** that audits and requests all required permissions:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -426,24 +441,24 @@ J.A.R.V.I.S. provides a dedicated **Permissions Hub** in **Settings > App Permis
 ```
 
 > [!TIP]
-> **Battery Optimization Exemption**: For seamless hands-free wake word recognition while your screen is off, grant **"Unrestricted Battery Usage"** to J.A.R.V.I.S. in Android Settings.
+> **Battery Optimization Exemption**: For seamless hands-free wake word recognition while your screen is off, grant **"Unrestricted Battery Usage"** to A.R.I.S.E in Android Settings.
 
 ---
 
 ## 🛠️ Build & Installation Instructions
 
 ### Prerequisites
-- **Flutter SDK**: `^3.12.2` or newer
+- **Flutter SDK**: `^3.11.0` or newer
 - **Android SDK**: Compile SDK `35`, Min SDK `26` (Android 8.0+)
 - **Java / JDK**: OpenJDK 17 or newer
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/jarvis-android.git
-cd jarvis-android
+git clone https://github.com/Kesicode/A.R.I.S.E.git
+cd A.R.I.S.E
 ```
 
-### 2. Install Flutter Dependencies
+### 2. Install Dependencies
 ```bash
 flutter pub get
 ```
@@ -451,7 +466,7 @@ flutter pub get
 ### 3. Verify Static Analysis & Tests
 ```bash
 flutter analyze
-flutter test test/jarvis_features_test.dart
+flutter test
 ```
 
 ### 4. Build Release APK
@@ -473,7 +488,7 @@ adb install -r build/app/outputs/flutter-apk/app-release.apk
 ## 📂 Codebase Architecture & Directory Map
 
 ```
-Jarvis/
+A.R.I.S.E/
 ├── android/                                    # Native Android host layer
 │   └── app/src/main/
 │       ├── AndroidManifest.xml                 # Services, receivers & permission manifest
@@ -482,7 +497,7 @@ Jarvis/
 │           ├── AgentAccessibilityService.kt    # Screen hierarchy dump & UI touch injection
 │           └── InboxNotificationListenerService.kt # Email & SMS listener
 ├── assets/
-│   ├── icon/                                   # Arc Reactor & J.A.R.V.I.S. obsidian logos
+│   ├── icon/                                   # Arc Reactor & A.R.I.S.E obsidian logos
 │   └── images/                                 # 3D Hologram assets (Arc core, suit avatars)
 ├── lib/
 │   ├── main.dart                               # App entry point, services & overlay isolate
@@ -494,7 +509,7 @@ Jarvis/
 │   │   ├── home/home_screen.dart               # Mode switcher & primary container
 │   │   ├── onboarding/onboarding_screen.dart   # Interactive feature walkthrough
 │   │   ├── security/code_black_screen.dart     # Deceptive kernel panic lockout UI
-│   │   └── settings/                           # J.A.R.V.I.S. settings & permissions hub
+│   │   └── settings/                           # A.R.I.S.E settings & permissions hub
 │   ├── services/                               # 40+ modular business logic services
 │   │   ├── ai_service.dart                     # LLM integration, vision & intent routing
 │   │   ├── jarvis_service.dart                 # Master conversational & hands-free coordinator
@@ -520,7 +535,7 @@ Jarvis/
 ### 1. Hands-Free Speech Recognition on Motorola / Android 12+
 - **Symptom**: `InterruptedIOException` in `PipedOutputStream`.
 - **Cause**: Android 12+ on some devices delegates `createOnDeviceSpeechRecognizer` to buggy OEM speech recognizers.
-- **Solution**: J.A.R.V.I.S. explicitly routes through Google's robust Speech Services via `SpeechRecognizer.createSpeechRecognizer(this)`. Ensure the Google app has microphone permissions.
+- **Solution**: A.R.I.S.E explicitly routes through Google's robust Speech Services via `SpeechRecognizer.createSpeechRecognizer(this)`. Ensure the Google app has microphone permissions.
 
 ### 2. Floating Overlay Doesn't Render
 - **Solution**: Navigate to **Settings > App Permissions > Floating Overlay** and ensure "Appear on top" permission is toggled ON.
@@ -534,6 +549,6 @@ Jarvis/
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-Architected, designed, and engineered by **Abuzar**. All rights reserved.
+Maintained and engineered with precision by **Kesicode**.
 
-*Built for privacy enthusiasts, power users, and anyone who ever dreamed of carrying a genuine, autonomous J.A.R.V.I.S. in their pocket.*
+*Built for privacy enthusiasts, power users, and anyone who ever dreamed of carrying a genuine, autonomous A.R.I.S.E assistant in their pocket.*

@@ -105,7 +105,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 12, 16, 36),
         children: [
-          _sectionTitle('JARVIS Screen (HUD Visual Style)'),
+          _sectionTitle('A.R.I.S.E Screen (HUD Visual Style)'),
           _screenStyleCard(theme),
           const SizedBox(height: 20),
           _sectionTitle('Always-On Voice & Speech Synthesis'),
@@ -126,7 +126,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
           _sectionTitle('📁 Direct Storage & System Telemetry (No UI Taps)'),
           _directToolsCard(theme),
           const SizedBox(height: 20),
-          _sectionTitle('👁️ "Jarvis Eye" — Multimodal Camera Perception'),
+          _sectionTitle('👁️ "A.R.I.S.E Eye" — Multimodal Camera Perception'),
           _jarvisEyeCard(theme),
           const SizedBox(height: 20),
           _sectionTitle('🚀 Stark Superpowers & Cyber Suite'),
@@ -203,12 +203,12 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        'JARVIS Screen Mode',
+                        'A.R.I.S.E Screen Mode',
                         style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15),
                       ),
                       const SizedBox(height: 2),
                       Text(
-                        'Choose your visual hologram display for JARVIS mode',
+                        'Choose your visual hologram display for A.R.I.S.E mode',
                         style: TextStyle(
                           fontSize: 12,
                           color: theme.colorScheme.onSurfaceVariant,
@@ -239,7 +239,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                 Expanded(
                   child: _screenStyleOption(
                     theme: theme,
-                    title: 'Jarvis',
+                    title: 'A.R.I.S.E',
                     subtitle: '3D Iron Man Hologram Suit',
                     icon: Icons.accessibility_new_rounded,
                     isSelected: currentStyle == JarvisScreenStyle.jarvis,
@@ -364,7 +364,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                 style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
               ),
               subtitle: const Text(
-                'Desk mode: listens silently in the background, ignores room chatter, and wakes on "Hey Jarvis"',
+                'Desk mode: listens silently in the background, ignores room chatter, and wakes on "Hey A.R.I.S.E"',
                 style: TextStyle(fontSize: 12),
               ),
               value: _settings.jarvisAlwaysOn,
@@ -405,7 +405,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
             ),
             const SizedBox(height: 4),
             Text(
-              'Select the studio human voice for Jarvis spoken responses.',
+              'Select the studio human voice for A.R.I.S.E spoken responses.',
               style: theme.textTheme.bodySmall?.copyWith(
                 color: theme.colorScheme.onSurfaceVariant,
               ),
@@ -493,7 +493,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
               segments: const [
                 ButtonSegment(
                   value: PersonalityArchetype.jarvis,
-                  label: Text('JARVIS', style: TextStyle(fontSize: 11)),
+                  label: Text('A.R.I.S.E', style: TextStyle(fontSize: 11)),
                   icon: Icon(Icons.shield_outlined, size: 16),
                 ),
                 ButtonSegment(
@@ -1117,7 +1117,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
             SwitchListTile(
               contentPadding: EdgeInsets.zero,
               title: const Text(
-                'Jarvis Eye Optical Perception',
+                'A.R.I.S.E Eye Optical Perception',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
               ),
               subtitle: const Text(
@@ -1143,7 +1143,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                     : const Icon(Icons.remove_red_eye_outlined, size: 18),
                 label: Text(vision.isInspecting
                     ? 'Scanning Optical Target...'
-                    : 'Test Jarvis Eye Snapshot'),
+                    : 'Test A.R.I.S.E Eye Snapshot'),
                 onPressed: vision.isInspecting
                     ? null
                     : () async {
@@ -1379,7 +1379,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
               contentPadding: EdgeInsets.zero,
               leading: const Icon(Icons.radar, color: Color(0xFF00E676)),
               title: const Text('Airspace & Satellite Radar'),
-              subtitle: const Text('"Jarvis, what\'s flying above me?" — Live ADS-B flights and ISS orbital passes'),
+              subtitle: const Text('"A.R.I.S.E, what\'s flying above me?" — Live ADS-B flights and ISS orbital passes'),
               trailing: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFF00E676).withValues(alpha: 0.15),
@@ -1578,7 +1578,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8),
                 child: Text(
-                  'No macros recorded yet. Tap "Start Recording" or say "Jarvis, record macro <name>" to demonstrate an autonomous skill.',
+                  'No macros recorded yet. Tap "Start Recording" or say "A.R.I.S.E, record macro <name>" to demonstrate an autonomous skill.',
                   style: theme.textTheme.bodySmall?.copyWith(fontStyle: FontStyle.italic),
                 ),
               )
@@ -2000,7 +2000,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                 style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
               ),
               subtitle: const Text(
-                'Jarvis speaks aloud to prompt you about night mode, study sessions, upcoming meetings, and remaining to-dos',
+                'A.R.I.S.E speaks aloud to prompt you about night mode, study sessions, upcoming meetings, and remaining to-dos',
                 style: TextStyle(fontSize: 12),
               ),
               value: _settings.jarvisAutoSpeakEnabled,
@@ -2018,7 +2018,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                   style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
                 ),
                 subtitle: const Text(
-                  'Jarvis opens an active listening window after asking a question so you can reply "Yes" or "No" without touching the device',
+                  'A.R.I.S.E opens an active listening window after asking a question so you can reply "Yes" or "No" without touching the device',
                   style: TextStyle(fontSize: 12),
                 ),
                 value: _settings.proactiveVoiceConfirmationEnabled,
@@ -2146,7 +2146,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
               ),
               const SizedBox(height: 4),
               const Text(
-                'Tap any prompt to test Jarvis speaking aloud and awaiting your hands-free voice confirmation ("Yes" / "No"):',
+                'Tap any prompt to test A.R.I.S.E speaking aloud and awaiting your hands-free voice confirmation ("Yes" / "No"):',
                 style: TextStyle(fontSize: 12, color: Colors.grey),
               ),
               const SizedBox(height: 10),
@@ -2161,7 +2161,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                       ProactiveAgentService.instance.testProactivePrompt('night');
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
-                          content: Text('Testing Night Mode auto-speak... Say "Yes" or "No" to Jarvis.'),
+                          content: Text('Testing Night Mode auto-speak... Say "Yes" or "No" to A.R.I.S.E.'),
                           duration: Duration(seconds: 3),
                         ),
                       );
@@ -2174,7 +2174,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                       ProactiveAgentService.instance.testProactivePrompt('study');
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
-                          content: Text('Testing Study Protocol prompt... Say "Yes" or "No" to Jarvis.'),
+                          content: Text('Testing Study Protocol prompt... Say "Yes" or "No" to A.R.I.S.E.'),
                           duration: Duration(seconds: 3),
                         ),
                       );
@@ -2187,7 +2187,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                       ProactiveAgentService.instance.testProactivePrompt('meeting');
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
-                          content: Text('Testing Meeting Alert... Say "Yes" or "No" to Jarvis.'),
+                          content: Text('Testing Meeting Alert... Say "Yes" or "No" to A.R.I.S.E.'),
                           duration: Duration(seconds: 3),
                         ),
                       );
@@ -2200,7 +2200,7 @@ class _JarvisSettingsScreenState extends State<JarvisSettingsScreen> {
                       ProactiveAgentService.instance.testProactivePrompt('todo');
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
-                          content: Text('Testing Tasks Review... Say "Yes" or "No" to Jarvis.'),
+                          content: Text('Testing Tasks Review... Say "Yes" or "No" to A.R.I.S.E.'),
                           duration: Duration(seconds: 3),
                         ),
                       );

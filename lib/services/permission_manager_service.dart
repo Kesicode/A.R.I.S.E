@@ -70,7 +70,7 @@ class PermissionManagerService extends ChangeNotifier {
       AppPermissionInfo(
         type: AppPermissionType.microphone,
         title: 'Microphone & Voice Input',
-        description: 'Enables "Hey Jarvis" wake word detection and hands-free desk mode listening.',
+        description: 'Enables "Hey A.R.I.S.E" wake word detection and hands-free desk mode listening.',
         icon: Icons.mic_rounded,
         isGranted: micStatus,
       ),

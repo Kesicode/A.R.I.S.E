@@ -224,7 +224,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
         title: Row(
           children: [
             Text(
-              isJarvis ? 'JARVIS' : 'PrivateAgent',
+              isJarvis ? 'A.R.I.S.E' : 'PrivateAgent',
               style: isJarvis
                   ? const TextStyle(
                       color: Color(0xFF00E5FF),
@@ -673,7 +673,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                             '“Play Closer on YouTube”\n'
                             '“Open Settings and show storage info”'
                       : 'Ask anything — questions, ideas, coding, or writing.\n'
-                            'Switch to Agent or JARVIS mode for autonomous device control.',
+                            'Switch to Agent or A.R.I.S.E mode for autonomous device control.',
                   textAlign: TextAlign.center,
                   style: theme.textTheme.bodySmall?.copyWith(
                     color: theme.colorScheme.onSurfaceVariant,

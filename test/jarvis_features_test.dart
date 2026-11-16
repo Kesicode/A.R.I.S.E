@@ -705,10 +705,10 @@ void main() {
       expect(profile['city'], 'Malibu');
     });
 
-    test('Creator identity accurately declares Abuzar', () {
+    test('Creator identity accurately declares Kesicode', () {
       final personality = PersonalityService.instance;
       final answer = personality.getCreatorAnswer();
-      expect(answer, contains('Abuzar'));
+      expect(answer, contains('Kesicode'));
       expect(answer.toLowerCase(), isNot(contains('tony stark')));
     });
 
@@ -716,7 +716,7 @@ void main() {
       final personality = PersonalityService.instance;
       await HermesEvolutionService.instance.updateUser('''
 # User Profile
-- Name: Abuzar
+- Name: Operator
 - Identity: Primary Operator
 ''');
       await CalendarReminderService.instance.init();
@@ -735,7 +735,7 @@ void main() {
       await TodoService.instance.addTask('Prepare quarterly analysis', priority: TodoPriority.high);
 
       final greeting = await personality.generateExecutiveGreeting();
-      expect(greeting, contains('Abuzar'));
+      expect(greeting, contains('Operator'));
       expect(greeting.toLowerCase(), contains('meeting'));
       expect(greeting, contains('Prepare quarterly analysis'));
       expect(greeting, contains('to-do'));

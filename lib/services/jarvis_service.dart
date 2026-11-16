@@ -93,10 +93,10 @@ class JarvisService extends ChangeNotifier {
   String _lastUserSpeech = '';
   String get lastUserSpeech => _lastUserSpeech;
 
-  String _lastJarvisSpeech = 'At your service, sir. Say "Hey Jarvis" anytime.';
+  String _lastJarvisSpeech = 'At your service. Say "Hey A.R.I.S.E" anytime.';
   String get lastJarvisSpeech => _lastJarvisSpeech;
 
-  String _statusMessage = 'STANDBY // SAY "HEY JARVIS"';
+  String _statusMessage = 'STANDBY // SAY "HEY A.R.I.S.E"';
   String get statusMessage => _statusMessage;
 
   String? _currentTaskGoal;
@@ -246,7 +246,7 @@ class JarvisService extends ChangeNotifier {
       if (_phase != JarvisPhase.executing) {
         _isAwake = false;
         _statusMessage = _shouldListenContinuously
-            ? 'STANDBY // SAY "HEY JARVIS"'
+            ? 'STANDBY // SAY "HEY A.R.I.S.E"'
             : 'READY // TAP TO TALK';
         notifyListeners();
       }
@@ -263,7 +263,7 @@ class JarvisService extends ChangeNotifier {
     _awakeTimer?.cancel();
     _lastUserSpeech = '';
     _statusMessage = _shouldListenContinuously
-        ? 'STANDBY // SAY "HEY JARVIS"'
+        ? 'STANDBY // SAY "HEY A.R.I.S.E"'
         : 'READY // TAP TO TALK';
     _phase = JarvisPhase.idle;
     notifyListeners();
@@ -340,7 +340,7 @@ class JarvisService extends ChangeNotifier {
     // - standalone (jarvis | javis | jervis | jarves | jarvice | charvis | garvis | jarvi)
     // - (wake up jarvis | jarvis wake up | jarvis please)
     final wakePattern = RegExp(
-      r'\b(?:(?:hey|hello|hi|okay|ok|yo|listen|wake\s+up|dear)\s+(?:jarvis|javis|jervis|jarves|jarvice|charvis|garvis|gervis|travis|service|davis|davies|harvest|jarvi|google)|(?:jarvis|javis|jervis|jarves|jarvice|charvis|garvis|jarvi)\s+(?:wake\s+up|please|online)|(?:jarvis|javis|jervis|jarves|jarvice|charvis|garvis|jarvi)|(?:hey|okay|ok|hello|hi)\s+google)\b',
+      r'\b(?:(?:hey|hello|hi|okay|ok|yo|listen|wake\s+up|dear)\s+(?:arise|a\.r\.i\.s\.e|jarvis|javis|jervis|jarves|jarvice|charvis|garvis|gervis|travis|service|davis|davies|harvest|jarvi|google)|(?:arise|a\.r\.i\.s\.e|jarvis|javis|jervis|jarves|jarvice|charvis|garvis|jarvi)\s+(?:wake\s+up|please|online)|(?:arise|a\.r\.i\.s\.e|jarvis|javis|jervis|jarves|jarvice|charvis|garvis|jarvi)|(?:hey|okay|ok|hello|hi)\s+google)\b',
       caseSensitive: false,
     );
 
@@ -411,7 +411,7 @@ class JarvisService extends ChangeNotifier {
     startListening();
     // Arm mid-air proximity sensor for zero-touch gestures while in JARVIS mode
     unawaited(AirGestureService.instance.start());
-    _statusMessage = 'STANDBY // SAY "HEY JARVIS"';
+    _statusMessage = 'STANDBY // SAY "HEY A.R.I.S.E"';
     notifyListeners();
   }
 
@@ -441,7 +441,7 @@ class JarvisService extends ChangeNotifier {
       const msg =
           'Always-On continuous listening active, sir. Say "Hey Jarvis" anytime.';
       _lastJarvisSpeech = msg;
-      _statusMessage = 'STANDBY // SAY "HEY JARVIS"';
+      _statusMessage = 'STANDBY // SAY "HEY A.R.I.S.E"';
       notifyListeners();
       await _voice.speak(msg);
     } else {
@@ -584,7 +584,7 @@ class JarvisService extends ChangeNotifier {
       _statusMessage = 'LISTENING // AUDIO RECEPTORS ACTIVE';
     } else {
       _phase = JarvisPhase.idle;
-      _statusMessage = 'STANDBY // SAY "HEY JARVIS"';
+      _statusMessage = 'STANDBY // SAY "HEY A.R.I.S.E"';
     }
     notifyListeners();
 
@@ -648,7 +648,7 @@ class JarvisService extends ChangeNotifier {
             _statusMessage = _shouldListenContinuously
                 ? (_isAwake
                     ? 'LISTENING // AUDIO RECEPTORS ACTIVE'
-                    : 'STANDBY // SAY "HEY JARVIS"')
+                    : 'STANDBY // SAY "HEY A.R.I.S.E"')
                 : 'READY // TAP TO TALK';
             notifyListeners();
           }
@@ -785,7 +785,7 @@ class JarvisService extends ChangeNotifier {
     if (_phase == JarvisPhase.listening) {
       _phase = _executor.isBusy ? JarvisPhase.executing : JarvisPhase.idle;
       _statusMessage = _shouldListenContinuously
-          ? 'STANDBY // SAY "HEY JARVIS"'
+          ? 'STANDBY // SAY "HEY A.R.I.S.E"'
           : 'READY // TAP TO TALK';
       notifyListeners();
     }
@@ -806,7 +806,7 @@ class JarvisService extends ChangeNotifier {
       await _voice.stopSpeaking();
       _phase = JarvisPhase.idle;
       _statusMessage = _shouldListenContinuously
-          ? 'STANDBY // SAY "HEY JARVIS"'
+          ? 'STANDBY // SAY "HEY A.R.I.S.E"'
           : 'READY // TAP TO TALK';
       notifyListeners();
     }
@@ -856,7 +856,7 @@ class JarvisService extends ChangeNotifier {
       _lastJarvisSpeech = reply;
       _phase = JarvisPhase.speaking;
       _statusMessage = _shouldListenContinuously
-          ? 'STANDBY // SAY "HEY JARVIS"'
+          ? 'STANDBY // SAY "HEY A.R.I.S.E"'
           : 'READY // TAP TO TALK';
       notifyListeners();
       await _voice.speak(reply);
@@ -986,9 +986,10 @@ class JarvisService extends ChangeNotifier {
 
     if (lower.startsWith('record macro ') ||
         lower.startsWith('start recording ') ||
+        lower.startsWith('teach arise ') ||
         lower.startsWith('teach jarvis ')) {
       final macroGoal = trimmed
-          .replaceFirst(RegExp(r'^(record\s+macro|start\s+recording|teach\s+jarvis)\s+', caseSensitive: false), '')
+          .replaceFirst(RegExp(r'^(record\s+macro|start\s+recording|teach\s+arise|teach\s+jarvis)\s+', caseSensitive: false), '')
           .trim();
       await MacroRecorderService.instance.startRecording(macroGoal.isNotEmpty ? macroGoal : 'Custom Task');
       final reply = 'Macro recording engaged for "${macroGoal.isNotEmpty ? macroGoal : 'Custom Task'}", sir. Demonstrate the actions on your screen and say "save macro" when finished.';
@@ -1199,7 +1200,7 @@ class JarvisService extends ChangeNotifier {
       return;
     }
 
-    // 3e-2b. Creator & Builder Identity (Built by Abuzar)
+    // 3e-2b. Creator & Builder Identity (Built by Kesicode)
     if (lower.contains('who built you') ||
         lower.contains('who created you') ||
         lower.contains('who made you') ||
@@ -1219,7 +1220,7 @@ class JarvisService extends ChangeNotifier {
       final reply = PersonalityService.instance.getCreatorAnswer();
       _lastJarvisSpeech = reply;
       _phase = JarvisPhase.speaking;
-      _statusMessage = 'CREATOR // ABUZAR';
+      _statusMessage = 'CREATOR // KESICODE';
       notifyListeners();
       await _voice.speak(reply);
       await _startFollowUpListening();

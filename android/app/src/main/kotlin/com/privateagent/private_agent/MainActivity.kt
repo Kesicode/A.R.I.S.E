@@ -422,7 +422,9 @@ class MainActivity : FlutterActivity() {
 
     private fun containsWakeWord(text: String): Boolean {
         val lower = text.lowercase()
-        return lower.contains("jarvis") ||
+        return lower.contains("arise") ||
+               lower.contains("a.r.i.s.e") ||
+               lower.contains("jarvis") ||
                lower.contains("javis") ||
                lower.contains("jervis") ||
                lower.contains("jarves") ||

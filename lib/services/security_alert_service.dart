@@ -79,7 +79,7 @@ class SecurityAlertService extends ChangeNotifier {
       try {
         await telegram.sendMessage(
           ownerChatId,
-          '🚨 JARVIS SECURITY ALERT:\n$alertMessage',
+          '🚨 A.R.I.S.E SECURITY ALERT:\n$alertMessage',
         );
       } catch (_) {}
     }

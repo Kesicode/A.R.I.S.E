@@ -631,7 +631,7 @@ class _JarvisHudWidgetState extends State<JarvisHudWidget>
                                         ),
                                         const SizedBox(width: 5),
                                         Text(
-                                          isArc ? 'ARC' : 'JARVIS',
+                                          isArc ? 'ARC' : 'A.R.I.S.E',
                                           style: TextStyle(
                                             color: podColor,
                                             fontSize: 9.5,

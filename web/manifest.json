@@ -1,11 +1,11 @@
 {
-    "name": "private_agent",
-    "short_name": "private_agent",
+    "name": "A.R.I.S.E",
+    "short_name": "A.R.I.S.E",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A.R.I.S.E - Autonomous Reactive Intelligent System Engine",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
